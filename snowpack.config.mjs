@@ -5,7 +5,7 @@ export default {
     public: "/",
     src: "/dist",
   },
-  plugins: [/* ... */ "@snowpack/plugin-react-refresh"],
+  plugins: ["@snowpack/plugin-react-refresh", "@snowpack/plugin-webpack"],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
